@@ -1,0 +1,51 @@
+/* Thank You Page Styles */
+.thankyou-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background1-color);
+  padding: 2rem;
+}
+
+.thankyou-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+  border: 1px solid var(--highlight-text);
+}
+
+.thankyou-card h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--highlight-text);
+  margin-bottom: 1rem;
+}
+
+.thankyou-card p {
+  font-size: 1.6rem;
+  color: var(--body-text-color);
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.thankyou-card .btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #bc6c31;
+  border: solid #bc6c31;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.thankyou-card .btn:hover {
+  background: #a45828;
+  color: #fff;
+}

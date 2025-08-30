@@ -42,36 +42,21 @@
     <!-- Contact Form -->
     <section class="form">
       <div class="form-container">
-      <form name="contact" method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
-      action="/thank-you.html"
-      class="contact-form">
-
-  <!-- Required by Netlify -->
+      <form name="contact" method="POST" data-netlify="true" class="contact-form" ction="/thankyou.html">
   <input type="hidden" name="form-name" value="contact">
-  <!-- Honeypot (hidden to humans) -->
-  <p style="display:none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
-
+  
   <div class="form-header">
     <img src="assests/images/logo.jpeg" alt="Email Icon">
     <h3>Quick Contact Form</h3>
   </div>
 
-  <input type="text" id="full-name" name="fullName" placeholder="Full Name" required>
-  <input type="email" id="email-address" name="email" placeholder="Email Address" required>
-  <input type="tel" id="phone-number" name="phone"
-         placeholder="Phone Number"
-         pattern="^[6-9]\d{9}$" inputmode="numeric" required>
+  <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+  <input type="email" id="email-address" name="email-address" placeholder="Email Address" required>
+  <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required>
   <textarea id="message" name="message" placeholder="Message...." required></textarea>
-
-  <!-- Optional: Netlify reCAPTCHA -->
-  <div data-netlify-recaptcha="true"></div>
-
   <button type="submit">Send Message</button>
 </form>
+
 
       </div>
     </section>
